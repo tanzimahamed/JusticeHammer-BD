@@ -1,0 +1,39 @@
+# ===== Environment & Secrets =====
+.env
+.env.local
+config.local.php
+
+# ===== PHP =====
+vendor/
+composer.lock
+*.log
+
+# ===== Uploads (user-generated content) =====
+uploads/*
+!uploads/.gitkeep
+
+# ===== Database backups =====
+*.sql.bak
+*.sqlite
+
+# ===== Python / Flask (ML অংশের জন্য) =====
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+*.pkl
+*.joblib
+.ipynb_checkpoints/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Node (future frontend tooling) =====
+node_modules/
